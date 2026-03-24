@@ -10,13 +10,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pages.css">
     <title>Document</title>
 </head>
 
 <body>
+    <div class="pages">
+        <a href="./suma.php" class="site"><span>Suma</span></a>
+        <a href="./factorial.php" class="site"><span>Factorial</span></a>
+        <a href="./nombre.php" class="site"><span>Nombre</span></a>
+    </div>
     <h1>Factorial</h1>
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-        <input type="number" name="num" id="num" value="<?php echo $num1 ?>">
+        <input class="input" type="number" name="num" id="num" value="<?php echo $num1 ?>">
         <input type="submit" value="Factorizar">
     </form>
     <div class="result-container">

@@ -16,6 +16,7 @@
 
 <body>
     <div class="pages">
+        <a href="./index.php" class="site"><span>Home</span></a>
         <a href="./suma.php" class="site"><span>Suma</span></a>
         <a href="./factorial.php" class="site"><span>Factorial</span></a>
         <a href="./nombre.php" class="site"><span>Nombre</span></a>
@@ -24,7 +25,7 @@
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
         <input class="input" type="text" name="name" id="name" value="<?php echo $nameStr ?>">
         <input class="input" type="text" name="lastname" id="lastname" value="<?php echo $lastnameStr ?>">
-        <input type="submit" value="Nombre completo">
+        <input class="btn" type="submit" value="Nombre completo">
     </form>
     <div class="result-container">
         <p>Nombre completo: <span class="result">

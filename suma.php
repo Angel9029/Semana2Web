@@ -16,6 +16,7 @@
 
 <body>
     <div class="pages">
+        <a href="./index.php" class="site"><span>Home</span></a>
         <a href="./suma.php" class="site"><span>Suma</span></a>
         <a href="./factorial.php" class="site"><span>Factorial</span></a>
         <a href="./nombre.php" class="site"><span>Nombre</span></a>

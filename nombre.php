@@ -23,8 +23,8 @@
     </div>
     <h1>Nombre completo</h1>
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-        <input class="input" type="text" name="name" id="name" value="<?php echo $nameStr ?>">
-        <input class="input" type="text" name="lastname" id="lastname" value="<?php echo $lastnameStr ?>">
+        <input class="input" type="text" name="name" id="name" value="<?php echo $nameStr ?>" required>
+        <input class="input" type="text" name="lastname" id="lastname" value="<?php echo $lastnameStr ?>" required>
         <input class="btn" type="submit" value="Nombre completo">
     </form>
     <div class="result-container">

@@ -23,8 +23,8 @@
     </div>
     <h1>Suma</h1>
     <form class="form" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-        <input class="input" type="number" name="num" id="num" value="<?php echo $num1 ?>">
-        <input class="input" type="number" name="num2" id="num2" value="<?php echo $num2 ?>">
+        <input class="input" type="number" name="num" id="num" value="<?php echo $num1 ?>" required>
+        <input class="input" type="number" name="num2" id="num2" value="<?php echo $num2 ?>" required>
         <input class="submit" type="submit" value="Sumar">
     </form>
     <div class="result-container">

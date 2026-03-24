@@ -23,7 +23,7 @@
     </div>
     <h1>Factorial</h1>
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-        <input class="input" type="number" name="num" id="num" value="<?php echo $num1 ?>">
+        <input class="input" type="number" name="num" id="num" value="<?php echo $num1 ?>" required>
         <input type="submit" value="Factorizar">
     </form>
     <div class="result-container">
